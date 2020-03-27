@@ -1,9 +1,27 @@
-app/cache/*
-app/database/*.db
-files/*
-vendor/
-composer.phar
+# Bolt specific
+/app/database/*
+/config/extensions/
+/config/*.yml
+/extensions/*
+/public/files/*
+/public/theme/*
+/public/thumbs/
+/var/*
+/vendor/
 composer.lock
-.DS_Store
-._.DS_Store
-.idea
+
+# Bolt development files
+/assets/grunt-local/*.js
+/assets/node_modules/
+/public/bolt/maps/
+/pimple.json
+/.deploy.yml
+
+# Bolt testing files
+/tests/codeception/_output
+/tests/codeception/_support/*Tester.php
+/tests/codeception/_support/_generated/
+/tests/phpunit/web-root/
+coverage.xml
+phpunit.xml
+*.codeception-backup

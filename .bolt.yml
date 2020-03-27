@@ -1,0 +1,3 @@
+paths:
+    web: '%site%/public'
+    bolt_assets: '%web%/bolt'
